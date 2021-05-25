@@ -1,0 +1,99 @@
+@media(max-width:767px) {
+    aside {display: none;}
+}
+
+/* li[class*="col"] {color:lightseagreen;} */
+[class*="facebook"] {
+    margin-top: 20px;
+}
+
+.aside-facebook a {
+    text-decoration: none;
+    color: black;
+}
+
+.section-facebook {
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+
+.section-facebook > .fileDiv {
+    display: none;
+}
+
+.section-facebook > .reply-content {
+    padding-left: 0px;
+}
+
+.profile-inner {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-inner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.profile-inner-content {
+    padding-left: 50px;
+}
+
+.profile-inner-content .title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profile-inner-content .time {
+    font-size: 12px;
+}
+
+.img-inner img {
+    width: 100%;
+}
+
+.like-inner {
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.like-inner a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.like-inner img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.like-inner span {
+    vertical-align: bottom;
+    font-weight: bold;
+}
+
+.comment-inner {
+    border-bottom: 1px solid #d2d2d2;
+    overflow: hidden;
+}
+
+.comment-inner a {
+    display: block;
+    float: left;
+    width: 33.3333%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.comment-inner a:hover {
+    text-decoration: underline;
+}

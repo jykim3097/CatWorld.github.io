@@ -1,0 +1,44 @@
+/* 1.웹 폰트 선언 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/* 2. 디자인 시작 시 기본 선언 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 100%;
+    min-width: 320px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input, textarea, button, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+ul, li, dl, ol {
+    list-style: none;
+}
+
+/* ====== 헤더(header) 2 ====== */
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    display: block;
+    padding: 10px 10px;
+}
+
+.navbar-brand > img {
+    display: block;
+    width: 30px;
+}
